@@ -1,0 +1,6 @@
+$my_wiki $mol_page
+	title \Мой блокнот
+	body /
+		<= Text $mol_textarea
+			hint \Пиши что хочешь
+			value?next <=> text?next \
